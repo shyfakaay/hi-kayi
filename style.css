@@ -1,0 +1,93 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  background: linear-gradient(to bottom, #ffffff, #ffffff 60%, #c3a8e6 60%, #a0c1d1);
+  color: #333;
+  font-family: 'Montserrat';
+}
+
+.navbar {
+  background-color: purple;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.intro {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #6f42c1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #5a249c;
+}
+
+.footer {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  color: #666;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.about, .bio, .interests {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.love {
+  color: #e74c3c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
