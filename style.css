@@ -1,10 +1,15 @@
-.body {
+body {
   margin: 0;
   padding: 0;
-  font-family: Inter;
-  background: linear-gradient(to bottom, #ffffff, #ffffff 60%, #c3a8e6 60%, #a0c1d1);
-  color: #333;
-  font-family: 'Montserrat';
+  background: linear-gradient(2deg, #BA55D3, transparent);;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 960px) {
+  .uk-h1, h1 {
+    font-size: -3.375rem;
+  }
 }
 
 .navbar {
@@ -21,23 +26,33 @@
 }
 
 img {
-  width: 150px;
-  height: 150px; 
+  width: 200px;
+  height: 200px; 
   border-radius: 50%;
   background-size: cover; 
   background-position: center; 
   overflow: hidden; 
 }
-}
+
 .header {
   text-align: center;
   padding: 80px 0;
+  padding-bottom: 50px;
 }
 
 .intro {
-  text-align: center;
-  padding: 40px 0;
-  margin: 115px;
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(0deg, #BA55D3, transparent);
+}
+
+.intro h2 {
+  margin-bottom: 0px;
+}
+
+.title {
+  margin-top: 5px;
+  margin-bottom: 35px;
 }
 
 .btn {
@@ -56,18 +71,16 @@ img {
 
 .footer {
   text-align: center;
-  background-color: white;
+  background-color: purple;
   padding: 20px;
-  color: #666;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+.footer a {
+  color: white;
 }
+
 
 .container {
   display: flex;
@@ -86,7 +99,8 @@ body {
 }
 
 .love {
-  color: #e74c3c;
+  color: black;
+  padding-top: 20px;
 }
 
 ul {
@@ -100,4 +114,9 @@ ul li {
 
 h1, h2 {
   margin-bottom: 20px;
+}
+
+.aboutme {
+  margin-left: 50px;
+  margin-right: 50px;
 }
